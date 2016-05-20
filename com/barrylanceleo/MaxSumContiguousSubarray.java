@@ -2,9 +2,6 @@ package com.barrylanceleo;
 
 import java.util.List;
 
-/**
- * Created by barry on 5/20/16.
- */
 public class MaxSumContiguousSubarray {
     public static int maxSubArray(final List<Integer> a) {
         if(a.size() == 0) {

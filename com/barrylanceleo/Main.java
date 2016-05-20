@@ -6,7 +6,12 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Integer> input = Arrays.asList(-2, 1, -3, 4, -1, 2, 1, -5, 4);
-	    System.out.println(MaxSumContiguousSubarray.maxSubArray(input));
+        ArrayList<Integer> input = new ArrayList<>();
+        input.add(0);
+        input.add(1);
+        input.add(2);
+        input.add(3);
+        input.add(4);
+        System.out.println(AddOneToNumber.plusOne(input));
     }
 }
