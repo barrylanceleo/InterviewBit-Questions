@@ -2,8 +2,9 @@ package com.barrylanceleo;
 
 import java.util.ArrayList;
 
+
 public class MinStepsInInfiniteGrid {
-    public int coverPoints(ArrayList<Integer> X, ArrayList<Integer> Y) {
+    public static int coverPoints(ArrayList<Integer> X, ArrayList<Integer> Y) {
         if(X.size() != Y.size()) {
             return 0;
         }
