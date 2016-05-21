@@ -19,7 +19,7 @@ public class AddOneToNumber {
             a.add(0, carryover);
         }
 
-        // remove the preceding zeroes is any
+        // remove preceding zeroes, if any
         while (a.get(0) == 0) {
             a.remove(0);
         }
