@@ -1,10 +1,7 @@
-package com.barrylanceleo;
+package com.barrylanceleo.arrays;
 
 import java.util.ArrayList;
 
-/**
- * Created by barry on 5/21/16.
- */
 public class FirstMissingInteger {
     public static int firstMissingPositive(ArrayList<Integer> a) {
 

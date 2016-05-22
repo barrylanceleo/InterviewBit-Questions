@@ -1,4 +1,4 @@
-package com.barrylanceleo;
+package com.barrylanceleo.arrays;
 
 import java.util.ArrayList;
 
